@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+    .wrapper
+    {
+        
+        position: relative;
+    width: "100%";
+    justify-content : center;
+    align-items: center;
+    display: "flex";
+    overflow: "hidden";
+   
+    }
+
+    .row {
+  /* display: -ms-flexbox; */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+     padding-left: 15px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+   
+
+    .container
+    {
+        display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+    }
+
+
+    #shape1
+    {
+        position: absolute;
+        left: 0;
+    right: 0;
+    margin: auto;
+    top:90px;
+    
+    }
+
+    #shape2
+    {
+        position: absolute;
+        right: 380px;
+    top: 280px;
+    
+    }
+
+     #shape3 {
+        position: absolute;
+    right: 88px;
+    top: 230px;
+    
+  }
+  #shape6 {
+    position: absolute;
+    right: 272px;
+    bottom: 0px;
+   
+  }
+
+  a {
+  background-color: red;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+   
+</style>
+<body>
+    <div
+      style= "background-color: #2a283e; min-height: 100vh; height : auto" >
+
+      <div class="container wrapper">
+        <img src="/pics/shape-1.svg" alt="fig1" id="shape1" />
+        <img src="/pics/shape-2.svg" alt="fig2" id="shape2" />
+        <img  src="/pics/shape-3.svg"alt="fig3" id="shape3" />
+        <img  src="/pics/shape-6.svg"alt="fig6" id="shape6" />
+        
+        
+        <div class="row" style="align-items: center;padding-top: 100px; padding-bottom: 50px">
+          <div class="col-md-6">
+            <img
+            src="/pics/hero-img.png"
+              alt="main img"
+              style=" justify-content: center; padding: 30px"
+            />
+          </div>
+          <div class="col-md-6">
+            <h2 style="color: #f0c19e ">Code Websites From Any Where</h2>
+            <h5
+              style="text-align: justify; color: rgb(154 179 205); padding-top: 10px;">
+              With this online code editor, you can edit HTML, CSS and
+              JavaScript code, and live preview of site instantly.
+            </h5>
+            <a href="home.html">Web Editor</a>
+        </div>
+    </div>
+</div>
+    </div>
+</body>
+</html>
